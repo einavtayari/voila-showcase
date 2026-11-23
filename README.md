@@ -24,7 +24,7 @@ Real screens of the app, captured on a fresh install with an empty database, so 
 
 **On the phone:** the conjugation setup, quick conjugation, and word practice for vocabulary.
 
-<p align="center"><img src="screens.png" alt="Conjugation, Quick conjugation and Word practice screens on a phone" width="100%"></p>
+<p align="center"><img src="screens-phone.png" alt="Conjugation, Quick conjugation and Word practice screens on a phone" width="100%"></p>
 
 ## A coach that is part of the app
 
