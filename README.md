@@ -14,9 +14,17 @@ Voilà is an app for practising French verb conjugation. It is an installable we
 
 ## A look
 
-Real screens of the app, captured on a fresh install with an empty database, so they show no personal data: the conjugation setup, the cheat sheet, quick conjugation tables, and decks of sentences to learn by heart.
+Real screens of the app, captured on a fresh install with an empty database, so they show no personal data.
 
-<p align="center"><img src="screens.png" alt="Conjugation, Cheat sheet, Quick conjugation and Memorize screens" width="100%"></p>
+**On the computer:** the cheat sheet, a reference for every French tense with its use, its formation and examples, and the quick conjugation tables for the most common irregular verbs.
+
+<p align="center"><img src="screens-desktop-cheatsheet.png" alt="The cheat sheet on a computer" width="100%"></p>
+
+<p align="center"><img src="screens-desktop-quick.png" alt="Quick conjugation tables on a computer" width="100%"></p>
+
+**On the phone:** the conjugation setup, quick conjugation, and word practice for vocabulary.
+
+<p align="center"><img src="screens.png" alt="Conjugation, Quick conjugation and Word practice screens on a phone" width="100%"></p>
 
 ## A coach that is part of the app
 
