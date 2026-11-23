@@ -1,3 +1,5 @@
+<p align="center"><img src="icon.png" width="120" alt="Voilà app icon"></p>
+
 # Voilà
 
 > **This is a showcase. The source code is private.**
@@ -9,6 +11,21 @@ Voilà is an app for practising French verb conjugation. It is an installable we
 
 - **Everything happens on the device.** Every exercise is generated and graded locally, against a conjugation dataset that is built once, at build time, and shipped as static data. The app needs no network to teach and makes no AI call at runtime. There is no API key anywhere in the project.
 - **A bug in the game is tolerable. An error in the grammar is not.** Almost everything unusual about this project exists because of that one sentence.
+
+## A look
+
+Real screens of the app, captured on a fresh install with an empty database, so they show no personal data: the conjugation setup, the cheat sheet, quick conjugation tables, and decks of sentences to learn by heart.
+
+<p align="center"><img src="screens.png" alt="Conjugation, Cheat sheet, Quick conjugation and Memorize screens" width="100%"></p>
+
+## A coach that is part of the app
+
+Voilà is connected to a French coach, a separate AI agent that writes my learning plan and reports on how I am doing, and those show up inside the app.
+
+- **A personal area in the app.** A profile circle on every screen opens my learning plan and the coach's reports, for example progress by level or the road to an exam.
+- **A written contract between the coach and the app.** The coach writes its files in an agreed format. If a file follows the contract, the app shows it. If not, a sync script refuses it before it ever reaches the repository.
+- **Private by construction.** Only the owner's account can read it, nothing is cached publicly, and the last good copy is kept on the device so it still opens without a signal.
+- **The coach learns as I do.** The plan and the reports are updated as I progress, so what I see is the coach's current view of me and not a fixed syllabus.
 
 ## What it does
 
