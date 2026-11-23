@@ -2,17 +2,21 @@
 
 <h1 align="center">Voilà</h1>
 
-<p align="center"><b>A French verb trainer that works without a connection,<br>and does not get the grammar wrong.</b></p>
+<p align="center"><b>A French practice app that remembers what you get wrong.</b></p>
 
-> **This is a showcase.** The source code is private, because Voilà is built around one person's progress. Here is what it does and why it is built the way it is.
+> **This is a showcase.** The source code is private, because Voilà is built around one person's progress. Here is what it does and why I trust it.
 
-Voilà is where I practise French conjugation, on my phone or my laptop. The interface is in English, with a full Hebrew toggle. French is always the content.
+Voilà is the app I use to practise French, on my phone and my laptop. It starts with conjugation: 17 tenses and about 7,800 verbs. Around that sit a cheat sheet, vocabulary practice, reading rules and sounds, and a coach that follows my progress. The interface is in English, with a full Hebrew toggle. French is always the content.
 
 Every exercise is made and checked on the device itself, so it answers instantly and works on a plane. No AI decides, while I practise, what a verb should look like.
 
-## The one rule: the grammar is never wrong
+## It keeps track of what is shaky
 
-In this project, a bug in the game is tolerable, and an error in the grammar is not. Almost everything unusual about how Voilà is built follows from that one sentence:
+Practice follows each verb, tense and person separately. What I get wrong comes back, and what I know well gets out of the way. A screen called "Where you stand" shows what is solid and what is still shaky. I can also tick the five key verbs I want to master, and they come up far more often.
+
+## Checked before you see it
+
+In this project, a bug in the game is tolerable, and an error in the French is not. So Voilà is built like something that cannot afford to be wrong:
 
 - **Twelve checks** run before anything reaches the app.
 - **Hundreds of deliberately wrong French examples** prove that those checks refuse what they should.
@@ -21,12 +25,12 @@ In this project, a bug in the game is tolerable, and an error in the grammar is 
 
 ## What is inside
 
-- **17 tenses across 4 moods,** over a dictionary of about 7,800 verbs. Nothing is locked.
-- **Verb families.** Verbs are grouped into 7 families and 74 sub-families, so I learn the pattern and not only the list.
-- **Spaced repetition** that follows each verb, tense and person separately, so what is shaky comes back and what is solid gets out of the way.
-- **Key verbs.** I tick the five I want to master, and they come up far more often.
-- **Around the drill:** a full cheat sheet, short lessons that teach first, reading rules and sounds, decks of sentences to learn by heart, and word practice for vocabulary.
-- **Every answer is explained.**
+- **Conjugation across 17 tenses and 4 moods,** with verbs grouped into 7 families and 74 sub-families, so I learn the pattern and not only the list. Nothing is locked.
+- **A full cheat sheet** for every French tense, and quick tables for the most common irregular verbs.
+- **Verb tables:** type any verb and see it in every tense.
+- **Short lessons** that teach first and then practise.
+- **Reading rules and sounds,** decks of sentences to learn by heart, and word practice for vocabulary.
+- **An explanation for every answer.**
 
 ## A look
 
