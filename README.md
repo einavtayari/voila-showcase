@@ -2,57 +2,58 @@
 
 <h1 align="center">Voilà</h1>
 
-<p align="center"><b>French verbs, built around one learner.</b><br>Practise anywhere, even offline, with feedback you can trust.</p>
+<p align="center"><b>A French verb trainer that works without a connection,<br>and does not get the grammar wrong.</b></p>
 
-> **A showcase.** The source code is private, because Voilà is built around one person's progress. This page tells the story.
+> **This is a showcase.** The source code is private, because Voilà is built around one person's progress. Here is what it does and why it is built the way it is.
 
-## French that fits the way you learn
+Voilà is where I practise French conjugation, on my phone or my laptop. The interface is in English, with a full Hebrew toggle. French is always the content.
 
-Voilà is an app for practising French conjugation, on a phone or a computer. The interface is English by default, with a full Hebrew toggle. French is always the content, never the decoration.
+Every exercise is made and checked on the device itself, so it answers instantly and works on a plane. No AI decides, while I practise, what a verb should look like.
 
-Every exercise is made and checked right on the device. No connection needed, no waiting, and no AI guessing at what a verb should look like.
+## The one rule: the grammar is never wrong
 
-## Grammar errors are not allowed
+In this project, a bug in the game is tolerable, and an error in the grammar is not. Almost everything unusual about how Voilà is built follows from that one sentence:
 
-Here is the sentence behind the whole project: **a bug in the game is tolerable, but an error in the grammar is not.**
+- **Twelve checks** run before anything reaches the app.
+- **Hundreds of deliberately wrong French examples** prove that those checks refuse what they should.
+- **Every release is sealed.** It carries a fingerprint of every byte, and the app refuses to start from one that was changed afterwards.
+- **An interrupted update changes nothing.** The previous version keeps running until the new one is complete.
 
-So before anything reaches the app, it has to pass twelve checks, and hundreds of deliberately wrong French examples prove that those checks refuse what they should. Every release is sealed and verified, and an interrupted update can never leave half-finished French on the screen.
+## What is inside
 
-## Practice that adapts
-
-- **17 tenses across 4 moods**, over a dictionary of about 7,800 verbs. Nothing is locked.
-- **Pattern families.** Verbs are grouped into 7 families and 74 sub-families, so you learn the pattern, not just the list.
-- **Spaced repetition** that tracks each verb, tense and person separately, so what is shaky comes back and what is solid gets out of the way.
-- **Key verbs.** Tick the five you want to master, and they come up far more often.
-- **Everything around it:** a full cheat sheet, short teach-first lessons, reading rules and sounds, decks of sentences to learn by heart, and word practice for vocabulary.
-- **Honest feedback.** Every answer is explained.
+- **17 tenses across 4 moods,** over a dictionary of about 7,800 verbs. Nothing is locked.
+- **Verb families.** Verbs are grouped into 7 families and 74 sub-families, so I learn the pattern and not only the list.
+- **Spaced repetition** that follows each verb, tense and person separately, so what is shaky comes back and what is solid gets out of the way.
+- **Key verbs.** I tick the five I want to master, and they come up far more often.
+- **Around the drill:** a full cheat sheet, short lessons that teach first, reading rules and sounds, decks of sentences to learn by heart, and word practice for vocabulary.
+- **Every answer is explained.**
 
 ## A look
 
 Real screens of the app, captured on a fresh install with an empty database, so they show no personal data.
 
-**On the computer:** the cheat sheet, a reference for every French tense with its use, its formation and examples, and the quick conjugation tables for the most common irregular verbs.
+**On the computer:** the verb tables in Practice, where I type any verb and see it in every tense, and the cheat sheet, a reference for every French tense with its use, its formation and examples.
+
+<p align="center"><img src="screens-desktop-verbs.png" alt="Verb tables in Practice on a computer: a verb typed in, shown in every tense" width="100%"></p>
 
 <p align="center"><img src="screens-desktop-cheatsheet.png" alt="The cheat sheet on a computer" width="100%"></p>
-
-<p align="center"><img src="screens-desktop-quick.png" alt="Quick conjugation tables on a computer" width="100%"></p>
 
 **On the phone:** the conjugation setup, quick conjugation, and word practice for vocabulary.
 
 <p align="center"><img src="screens-phone.png" alt="Conjugation, Quick conjugation and Word practice screens on a phone" width="100%"></p>
 
-## A coach in the app
+## A coach inside the app
 
-Voilà is connected to a French coach, a separate AI agent that writes my learning plan and reports on how I am doing. They show up in a personal area inside the app, reached from a profile circle on every screen: progress by level, the road to an exam, and more.
+A French coach, a separate AI agent, writes my learning plan and reports on how I am doing. They appear in a personal area in the app, behind the profile circle on every screen: progress by level, the road to an exam, and more.
 
-The coach and the app agree on a written format, so only well-formed reports ever appear. The area is private to me, and the last copy stays on my phone so it opens even without a signal.
+The coach and the app agree on a written format, so only well-formed reports ever show up. The area is private to me, and the last copy is kept on my phone, so it opens even without a signal.
 
-## How it is made
+## How I built it
 
-Voilà is built by a human in the loop and a team of AI agents: planners, builders, testers, a security reviewer and a deployer. The app itself makes no AI calls when it teaches, and every release leaves a restore point behind.
+With a team of AI agents: one plans, others build, one tests, one reviews security, one ships. I am the human in the loop who decides. Every release leaves a dated restore point behind.
 
-## Want to see it live?
+## Want to see it work?
 
-The code is private, but I am glad to walk you through Voilà, in a demo or a conversation.
+The code stays private, but I am happy to show you Voilà live.
 
 <p align="center">Built by <a href="https://github.com/einavtayari">Einav</a>, the human in the loop.</p>
